@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | awk -F= '/^declare -[aA]/ {print $1}'
+compgen -v
